@@ -70,5 +70,5 @@ class Sizes(models.Model):
 # drinks(다) - (다) allergy : many-to-many / allergy_drink 중간테이블
 # NULL은 포인터가 가져올 값이 없는 상태
 # 중간테이블 직접 정의 through model
-# drinks와 sizes가 다대다이고, nutritions가 중간테이블인가? - 아님
+# drinks와 sizes가 다대다이고, nutritions가 중간테이블인가? - 아니다
 
